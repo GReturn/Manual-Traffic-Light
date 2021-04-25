@@ -1,9 +1,9 @@
-#define buttonGreen 13
-#define buttonYellow 12
-#define buttonRed 11
-#define ledGreen 7
-#define ledYellow 6
-#define ledRed 5
+#define buttonGreen pin1
+#define buttonYellow pin2
+#define buttonRed pin3
+#define ledGreen pin4
+#define ledYellow pin5
+#define ledRed pin6
 
 void setup()
 {
