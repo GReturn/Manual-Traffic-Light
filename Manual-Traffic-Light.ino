@@ -23,15 +23,27 @@ void loop()
   int buttonYellowState = digitalRead(buttonYellow);
   int buttonRedState = digitalRead(buttonRed);
   
-  if(buttonGreenState == HIGH){digitalWrite(ledGreen, HIGH);}
-  else{digitalWrite(ledGreen, LOW);}
+  if(buttonGreenState == HIGH) {
+    digitalWrite(ledGreen, HIGH);
+  }
+  else {
+    digitalWrite(ledGreen, LOW);
+  }
   delay(10);
   
-  if(buttonYellowState == HIGH){digitalWrite(ledYellow, HIGH);}
-  else{digitalWrite(ledYellow, LOW);}
+  if(buttonYellowState == HIGH) {
+    digitalWrite(ledYellow, HIGH);
+  }
+  else {
+    digitalWrite(ledYellow, LOW);
+  }
   delay(10);
   
-  if(buttonRedState == HIGH){digitalWrite(ledRed, HIGH);}
-  else{digitalWrite(ledRed, LOW);}
+  if(buttonRedState == HIGH) {
+    digitalWrite(ledRed, HIGH);
+  }
+  else {
+    digitalWrite(ledRed, LOW);
+  }
   delay(10);
 }
